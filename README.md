@@ -1,14 +1,14 @@
 # Visualizing a Forest Fire Spread with Dynamic Particle Effects in Maya
 
-**Project Title:** Dynamic Forest Fire Simulation
-**Course:** Graphics and Visual Computing (GVC)
-**Student Roll Number:** 19
-**Submission Date:** November 2025
+* **Project Title:** Dynamic Forest Fire Simulation 
+* **Course:** Graphics and Visual Computing (GVC)
+* **Roll Number:** 24cs2019
+* **Submission Date:** November 2025
 
 ---
 
 ## 🛠 Toolchain & Technologies
-* **Primary Software:** Autodesk Maya 2024/2025
+* **Primary Software:** Autodesk Maya 2026
 * **Scripting Language:** Python (using `maya.cmds` library)
 * **Simulation Engine:** Maya nParticles (Nucleus Solver)
 * **Rendering:** Viewport 2.0 / Hardware Renderer
@@ -33,8 +33,8 @@ The project was executed in three distinct technical phases:
 
 ### Phase 1: Environment Modeling & Procedural Scattering
 * **Terrain:** A $100 \times 100$ unit `pPlane` was deformed using a **Non-linear Sine Deformer** to create undulating hills and valleys, simulating a natural forest floor.
-* **Assets:** A low-poly tree was modeled using primitive shapes (Cylinder for trunk, Cone for canopy) to optimize performance for a scene with 300+ objects.
-* **Scattering Logic:** A custom Python script was written to duplicate the tree 300 times. A `closestPointOnMesh` node was utilized to calculate the exact $Y$-height of the terrain at random $X/Z$ coordinates, ensuring trees adhered perfectly to the geometry. Scale variation ($0.5x$ - $2.5x$) was applied using `random.uniform`.
+* **Assets:** A low-poly tree was modeled using primitive shapes (Cylinder for trunk, Cone for canopy) to optimize performance for a scene with 200+ objects.
+* **Scattering Logic:** A custom Python script was written to duplicate the tree 200 times. A `closestPointOnMesh` node was utilized to calculate the exact $Y$-height of the terrain at random $X/Z$ coordinates, ensuring trees adhered perfectly to the geometry. Scale variation ($0.5x$ - $2.5x$) was applied using `random.uniform`.
 
 ### Phase 2: Particle Simulation Setup
 * **Visual Style:** Maya **nParticles** were used with the **MultiStreak** render type to simulate the volume and chaos of flames.
@@ -54,10 +54,9 @@ The project was executed in three distinct technical phases:
 
 *(Student to insert images here)*
 
-1.  **Scene Setup:** [Insert Screenshot of the wireframe forest on the wavy terrain]
-2.  **Ignition:** [Insert Screenshot of the first tree catching fire]
+1.  **Scene Setup:** <img src='https://github.com/Ishita-Si/forestfire/blob/main/imgs/Screenshot%202025-11-22%20143747.png'>
+2.  **Ignition:** <img src='https://github.com/Ishita-Si/forestfire/blob/main/imgs/Screenshot%202025-11-24%20193951.png'>
 3.  **Spread:** [Insert Screenshot of the fire spreading to multiple trees]
-4.  **Code:** [Insert Screenshot of the Script Editor]
 
 ---
 
