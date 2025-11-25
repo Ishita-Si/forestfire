@@ -52,11 +52,9 @@ The project was executed in three distinct technical phases:
 
 ## 📸 Screenshots
 
-*(Student to insert images here)*
-
 1.  **Scene Setup:** <img src='https://github.com/Ishita-Si/forestfire/blob/main/imgs/Screenshot%202025-11-22%20143747.png'>
 2.  **Ignition:** <img src='https://github.com/Ishita-Si/forestfire/blob/main/imgs/Screenshot%202025-11-24%20193951.png'>
-3.  **Spread:** [Insert Screenshot of the fire spreading to multiple trees]
+3.  **Spread:** <img src='https://github.com/Ishita-Si/forestfire/blob/main/imgs/Screenshot%202025-11-25%20140726.png'>
 
 ---
 
